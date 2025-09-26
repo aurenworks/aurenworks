@@ -22,10 +22,11 @@ AurenWorks enables non-engineers to build and run simple apps and automations sa
 ## 2. High-Level System
 
 ```mermaid
+%%{init: {'theme': 'default'}}%%
 flowchart LR
-  subgraph Studio[Studio (Builder)]
-    A1[Model Designer]
-    A2[Form/Flow Designer]
+  subgraph Studio["Studio (Builder)"]
+    A1["Model Designer"]
+    A2["Form/Flow Designer"]
   end
 
   subgraph API[Control Plane API]
